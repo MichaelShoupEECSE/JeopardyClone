@@ -1,0 +1,46 @@
+/* some colors you may find useful:
+  #115ff4   background color
+  #060ce9   grid colors
+  #28a200   green for shown answers
+  #8d2ab5   purple for start/restart button
+  #74119c   purple for hover over start/restart button
+*/
+body {
+  background-color: #115ff4;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+#start-button {
+  background-color: #8d2ab5;
+}
+#start-button:hover {
+  background-color: #74119c;
+}
+#jeopardy {
+  text-align: center;
+  font-size: 9pt;
+  background-color: #060ce9;
+  color: white;
+  border-collapse: collapse;
+}
+#jeopardy th, #jeopardy td {
+  border: solid 1px white;
+  width: 12em;
+  padding: 1em;
+}
+th {
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 4em;
+  text-shadow: khaki 0.75px 0.75px;
+}
+
+td {
+  height: 9em;
+  text-transform: capitalize;
+}
+td:hover {
+  cursor: pointer;
+}
